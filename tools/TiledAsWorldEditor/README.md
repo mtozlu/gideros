@@ -9,6 +9,8 @@ You can include box2d physics properties right in the Tiled Editor and **TiledAs
 
 Tile rotations (by pressing *Z* button) and flippings (by pressing *X* and *Y* buttons for horizontal and vertical respectively) from *Tiled* are supported too.
 
+Watch video tutorial: http://youtu.be/G1AHvqAY4U0
+
 **There are some rules to obey when creating world**
 * Your layer names must be the same as defined in *TiledAsWorldEditor.lua* file. The default layer names are (however you can change them as long as they are the same in lua file and tiled editor):
   * Collisions Layer Name: *Level-B2Bodies* (This must be an *object* layer)
@@ -21,7 +23,7 @@ Tile rotations (by pressing *Z* button) and flippings (by pressing *X* and *Y* b
   
 ## Usage
 
-    Watch video tutorial or follow these steps:
+    Watch video tutorial here: http://youtu.be/G1AHvqAY4U0 or follow these steps:
 	
 1. You must enable *bit* plugin because this class makes use of bitwise operations for tile rotatins and flippings. *Bit* plugin comes with *Gideros Studio* however it is not enabled by default. To enable it: (taken from @atilim's post here: http://www.giderosmobile.com/forum/discussion/2106/bitwise-operations-on-gideros-mobile#Item_5)
 	* For MacOS: copy "/Applications/Gideros Studio/All Plugins/BitOp/bin/Mac OS/bitop.dylib" to "/Applications/Gideros Studio/Plugins" and restart the desktop player.
