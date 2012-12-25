@@ -1,0 +1,4 @@
+tntvpad_analogpad.png, 0, 0, 64, 64, 0, 0, 0, 0
+tntvpad_base.png, 64, 0, 94, 94, 0, 0, 0, 0
+tntvpad_buttondown.png, 0, 64, 64, 64, 0, 0, 0, 0
+tntvpad_buttonup.png, 158, 0, 64, 64, 0, 0, 0, 0

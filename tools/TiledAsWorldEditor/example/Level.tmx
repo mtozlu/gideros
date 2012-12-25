@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="20" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="Terrain" tilewidth="32" tileheight="32">
+  <image source="Assets/tileset-platformer.png" width="192" height="544"/>
+ </tileset>
+ <tileset firstgid="103" name="Xeon" tilewidth="48" tileheight="64">
+  <image source="Animation/Xeon.png" width="256" height="256"/>
+ </tileset>
+ <objectgroup name="TerrainCollisions" width="30" height="20">
+  <properties>
+   <property name="DrawType" value="Object"/>
+  </properties>
+  <object x="16" y="288" width="192" height="32"/>
+  <object x="16" y="224" width="32" height="64"/>
+  <object x="256" y="80" width="64" height="64">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <layer name="Terrain" width="30" height="20">
+  <properties>
+   <property name="DrawType" value="Tile"/>
+   <property name="TilesetName" value="Terrain"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4B2wBiITQfaESSAaCgdM6CuoB8A+tcBRMdA6VEwCkYqcBhoB9AZOA60A+gMWKA0KwGajYp2AgDdagL2
+  </data>
+ </layer>
+ <layer name="Collectibles" width="30" height="20">
+  <properties>
+   <property name="BodyShape" value="circle"/>
+   <property name="BodyType" value="kinematic"/>
+   <property name="DrawType" value="Sprite"/>
+   <property name="IsSensor" value="true"/>
+   <property name="NAME" value="Coin"/>
+   <property name="TilesetName" value="Terrain"/>
+   <property name="_Points" value="250"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwWAC7gT4o2DwAwD/qACP
+  </data>
+ </layer>
+ <layer name="StoneFromOtherWorld" width="30" height="20" opacity="0.46">
+  <properties>
+   <property name="AngularVelocity" value="1"/>
+   <property name="BodyType" value="dynamic"/>
+   <property name="DrawType" value="Sprite"/>
+   <property name="GravityY" value="1"/>
+   <property name="LinearVelocityX" value="-2"/>
+   <property name="TilesetName" value="Terrain"/>
+   <property name="World_ID" value="Venus"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUEAJWA+2AUTAKRsEoGAVDCgAAch8AOw==
+  </data>
+ </layer>
+ <layer name="StoneFromThisWorld" width="30" height="20">
+  <properties>
+   <property name="BodyShape" value="circle"/>
+   <property name="BodyType" value="dynamic"/>
+   <property name="DrawType" value="Sprite"/>
+   <property name="TilesetName" value="Terrain"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFxAKrgXbAKBgFo2AUjIJRMAqGBAAA5TcAOw==
+  </data>
+ </layer>
+ <layer name="Xeon" width="30" height="20">
+  <properties>
+   <property name="BodyType" value="dynamic"/>
+   <property name="DrawType" value="Sprite"/>
+   <property name="FixedRotation" value="true"/>
+   <property name="NAME" value="Xeon"/>
+   <property name="TNTAnimation" value="true"/>
+   <property name="TNTAnimationFiles" value="Animation/Xeon"/>
+   <property name="TNTInitialAnimation" value="WAIT-RIGHT"/>
+   <property name="TilesetName" value="Xeon"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwUgF6QPtgGEKAJPIAGg=
+  </data>
+ </layer>
+ <layer name="Invisible Layer" width="30" height="20" visible="0">
+  <properties>
+   <property name="DrawType" value="Tile"/>
+   <property name="TilesetName" value="Terrain"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzl0zsOwCAMA1BOxf2PxoSEogCOyWfAEkMXvzahrdWkF7rzZLsVvnSy/J2R4Z+6X/yuHNSVHVbr1IF+C7KTW5d0GZvZATNrabM717oQyzJXxNjN0Ou+Iz3WoO8YFfQfivbX56yw98/b/zkD5X4Udw==
+  </data>
+ </layer>
+</map>

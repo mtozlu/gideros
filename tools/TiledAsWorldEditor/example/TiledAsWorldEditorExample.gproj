@@ -2,9 +2,27 @@
  <properties autorotation="0" fps="60" scaleMode="0" mouseToTouch="1" iosDevice="0" packageName="com.yourdomain.yourapp" logicalHeight="480" logicalWidth="320" mouseTouchOrder="0" retinaDisplay="0" touchToMouse="1" assetsOnly="0" orientation="0" architecture="0">
   <imageScales/>
  </properties>
- <file source="prototypeLevel.lua"/>
- <file source="ball.png"/>
- <file source="tileset-platformer.png"/>
- <file source="main.lua"/>
+ <file source="README.txt"/>
+ <file source="Level.lua"/>
  <file source="TiledAsWorldEditor.lua"/>
+ <file source="StartScene.lua"/>
+ <folder name="Helper">
+  <file source="Helper/tntvpad64.lua" excludeFromExecution="1"/>
+  <file source="Helper/tntvpad32.lua" excludeFromExecution="1"/>
+  <file source="Helper/scenemanager.lua"/>
+  <file source="Helper/easing.lua"/>
+ </folder>
+ <folder name="Assets">
+  <file source="Assets/vpad.txt"/>
+  <file source="Assets/vpad.png"/>
+  <file source="Assets/tileset-platformer.png"/>
+ </folder>
+ <folder name="Animation">
+  <file source="Animation/Xeon.txt"/>
+  <file source="Animation/Xeon.tan"/>
+  <file source="Animation/Xeon.png"/>
+  <file source="Animation/tntanimator64.lua" excludeFromExecution="1"/>
+  <file source="Animation/tntanimator32.lua" excludeFromExecution="1"/>
+ </folder>
+ <file source="main.lua"/>
 </project>

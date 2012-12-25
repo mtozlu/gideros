@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TNTANIMATOR v="100">
+  <USEDFRAMES>
+    <FRAMENAME>IDLE_1.png</FRAMENAME>
+    <FRAMENAME>IDLE_2.png</FRAMENAME>
+    <FRAMENAME>IDLE_3.png</FRAMENAME>
+    <FRAMENAME>RUN_1.png</FRAMENAME>
+    <FRAMENAME>RUN_2.png</FRAMENAME>
+    <FRAMENAME>RUN_3.png</FRAMENAME>
+    <FRAMENAME>RUN_4.png</FRAMENAME>
+    <FRAMENAME>RUN_5.png</FRAMENAME>
+    <FRAMENAME>RUN_6.png</FRAMENAME>
+    <FRAMENAME>RUN_7.png</FRAMENAME>
+    <FRAMENAME>RUN_8.png</FRAMENAME>
+    <FRAMENAME>RUN_9.png</FRAMENAME>
+    <FRAMENAME>RUN_10.png</FRAMENAME>
+    <FRAMENAME>IDLE_4.png</FRAMENAME>
+    <FRAMENAME>IDLE_5.png</FRAMENAME>
+    <FRAMENAME>IDLE_6.png</FRAMENAME>
+    <FRAMENAME>IDLE_7.png</FRAMENAME>
+    <FRAMENAME>IDLE_8.png</FRAMENAME>
+  </USEDFRAMES>
+  <ANIM loop="0" name="IDLE-LEFT" speed="100" exclude="0" stoponframe="-1">
+    <FRAME XFLIP="-1" YFLIP="0">1</FRAME>
+  </ANIM>
+  <ANIM loop="0" name="IDLE-RIGHT" speed="100" exclude="0" stoponframe="-1">
+    <FRAME XFLIP="0" YFLIP="0">1</FRAME>
+  </ANIM>
+  <ANIM loop="0" name="IDLE-TO-WAIT-LEFT" speed="100" exclude="0" stoponframe="3">
+    <FRAME XFLIP="-1" YFLIP="0">1</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">2</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">3</FRAME>
+  </ANIM>
+  <ANIM loop="0" name="IDLE-TO-WAIT-RIGHT" speed="100" exclude="0" stoponframe="3">
+    <FRAME XFLIP="0" YFLIP="0">1</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">2</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">3</FRAME>
+  </ANIM>
+  <ANIM loop="-1" name="RUN-LEFT" speed="100" exclude="0" stoponframe="-1">
+    <FRAME XFLIP="-1" YFLIP="0">4</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">5</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">6</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">7</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">8</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">9</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">10</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">11</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">12</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">13</FRAME>
+  </ANIM>
+  <ANIM loop="-1" name="RUN-RIGHT" speed="100" exclude="0" stoponframe="-1">
+    <FRAME XFLIP="0" YFLIP="0">4</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">5</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">6</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">7</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">8</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">9</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">10</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">11</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">12</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">13</FRAME>
+  </ANIM>
+  <ANIM loop="-1" name="WAIT-LEFT" speed="100" exclude="0" stoponframe="-1">
+    <FRAME XFLIP="-1" YFLIP="0">14</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">15</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">16</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">17</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">18</FRAME>
+  </ANIM>
+  <ANIM loop="-1" name="WAIT-RIGHT" speed="100" exclude="0" stoponframe="-1">
+    <FRAME XFLIP="0" YFLIP="0">14</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">15</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">16</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">17</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">18</FRAME>
+  </ANIM>
+  <ANIM loop="0" name="WAIT-TO-IDLE-LEFT" speed="100" exclude="0" stoponframe="3">
+    <FRAME XFLIP="-1" YFLIP="0">3</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">2</FRAME>
+    <FRAME XFLIP="-1" YFLIP="0">1</FRAME>
+  </ANIM>
+  <ANIM loop="0" name="WAIT-TO-IDLE-RIGHT" speed="100" exclude="0" stoponframe="3">
+    <FRAME XFLIP="0" YFLIP="0">3</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">2</FRAME>
+    <FRAME XFLIP="0" YFLIP="0">1</FRAME>
+  </ANIM>
+</TNTANIMATOR>
